@@ -1,0 +1,89 @@
+
+.Card{
+  height: 310px;
+  width: 500px;
+  margin: auto;
+  border-radius: 40px;
+  color: gold;
+  background-image: url('back.jpg');
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+.chip{
+   width: 80px;
+   position: relative;
+   margin-top: 80px;
+   margin-left: 40px;
+}
+h1{
+  margin-right: 20px;
+  float: right;
+  color: white;
+}
+.Logos {
+position: fixed;
+width: 75px;
+margin-left: 400px;
+align-self: right;
+margin-top: -120px;
+} 
+h3{
+  font-family: 'Syncopate', sans-serif;
+  font-size:25px;
+  font-weight:bold;
+  color:gold;
+  margin-left:30px;
+  margin-top:15px;
+  width:320px;
+  background-color: rgba(83, 79, 26, 0.5);
+  text-align: center;
+  
+ 
+}
+.pin{
+  color:white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 45px;
+  margin-top: -15px;
+}
+.Logos img{
+  display: block;
+}
+.holder{
+  color: white;
+  font-weight: bolder;
+  margin-left: 45px;
+  margin-top: -15px;
+}
+.exp-date-wrapper {
+  position: fixed;
+  line-height: 1;
+  margin-left: 250px;
+  margin-top: -60px;
+}       
+.left-label {
+    float: left;
+    display: inline-block;
+    width: 40px;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    color:white;
+}
+.upper-labels {
+  font: 400 7px/1 'Open Sans', Arial, sans-serif;
+  color: white;
+}
+.exp-date {
+    display: inline-block;
+    float: left;
+    margin-top: -10px;
+    margin-left: 10px;
+    text-align: center;
+    color:white;
+}
+center input{
+  display: block;
+  width: 350px;
+  margin-top: 20px;
+}
