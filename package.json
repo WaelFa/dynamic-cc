@@ -2,7 +2,7 @@
   "name": "ccdynamic",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://WaelFa.github.io/",
+  "homepage": "https://WaelFa.github.io/dynamic-cc/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
@@ -13,6 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "node --version",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
