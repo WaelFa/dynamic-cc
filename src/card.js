@@ -25,7 +25,7 @@ export default class Card extends Component {
             <div class="exp-date">
               <div class="upper-labels">MONTH/YEAR</div>
               <div class="date">
-                {this.props.cardDate}
+                {this.props.cardDate1}/{this.props.cardDate2}
           </div>
             </div>
           </div>

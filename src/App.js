@@ -19,22 +19,22 @@ export default class App extends Component {
   }
 
 
-  getstatefrom = (a, b, c, d, e , f) => {
+  getstatefrom = (a, b, c, d, e , f, g) => {
     this.setState({
       card1: a,
       card2: b,
       card3: c,
       card4: d,
       name: e,
-      date: f,  
+      date1: f,
+      date2: g  
     })
-    console.log(this.card1, this.card2);
   }
 
   render() {
     return (
       <div>
-        <Card cardNum1={this.state.card1} cardNum2={this.state.card2} cardNum3={this.state.card3} cardNum4={this.state.card4} cardName={this.state.name} cardDate={this.state.date}/>
+        <Card cardNum1={this.state.card1} cardNum2={this.state.card2} cardNum3={this.state.card3} cardNum4={this.state.card4} cardName={this.state.name} cardDate1={this.state.date1} cardDate2={this.state.date2}/>
         <CardInput getstatefrom={this.getstatefrom} />
       </div>
 
