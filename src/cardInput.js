@@ -47,7 +47,6 @@ export default class CardInput extends Component {
                     /
                     <input className="year" type="text" onChange={this.dateUpdate2} maxLength="2" />
                 </form>
-                {this.state.name}
             </center>
         )
     }
